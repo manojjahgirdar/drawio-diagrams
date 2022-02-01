@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-01T07:18:32.814Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Mnkl7bjny443DU_tLA_B" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-01T10:53:07.804Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="a0EzmRNqWmoGdwzrIYpW" version="16.5.2" type="github">
   <diagram id="pYUwkEeAyRj8NolFTULQ" name="Page-1">
     <mxGraphModel dx="1426" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -230,6 +230,241 @@
         </mxCell>
         <mxCell id="NaIo-XjnZuOGT9HA02zK-51" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-124" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" width="680" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-125" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="920" y="560" width="660" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-126" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=default;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="10" width="660" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-133" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Cloud_Services_Classic.svg;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="925.08" y="564" width="24.92" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-134" value="Azure Cloud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="946.92" y="565" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-135" value="" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=#f8cecc;rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;dashed=0;container=1;collapsible=0;expand=0;recursiveResize=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="50" width="600" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-136" value="Cloud Pak for Data" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=#dae8fc;rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;dashed=0;container=1;collapsible=0;expand=0;recursiveResize=0;fontSize=12;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-135">
+          <mxGeometry x="30" y="70" width="130" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-137" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-136">
+          <mxGeometry y="50" width="130" height="80" as="geometry" />
+        </mxCell>
+        <UserObject link="https://cloud.ibm.com/catalog/services/speech-to-text" id="NaIo-XjnZuOGT9HA02zK-138">
+          <mxCell style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;fontSize=12;spacingTop=3;image;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iIzk4NTVENCIgZD0iTTMxLjU3NS4wMDJIMTMuOTI2YS40MjYuNDI2IDAgMCAwLS40MjYuNDI2djE1LjM5M2E0LjM0MyA0LjM0MyAwIDAgMC0xLjQxMS0uMjQ1SDQuMzA1Yy0yLjM3MyAwLTQuMzA0IDEuOTM4LTQuMzA0IDQuMzE5djMuODIxYzAgMi4zOCAxLjkzMSA0LjMxOSA0LjMwNCA0LjMxOWgxLjUxN2wyLjE2NyAzLjc1NGEuNDI5LjQyOSAwIDAgMCAuNTgyLjE1NC40MjQuNDI0IDAgMCAwIC4xNTYtLjU4bC0yLjQxNC00LjE3N0g0LjMwN2MtMS45MDQgMC0zLjQ1My0xLjU1OS0zLjQ1My0zLjQ3di0zLjgyMWMwLTEuOTExIDEuNTQ3LTMuNDcgMy40NTMtMy40N2g3Ljc4NWMuNDg2IDAgLjk2NS4xMjQgMS40MDguMzIzdjUuMDUzYzAgLjIzNS4xOTMuNDI0LjQyNy40MjRoMS42NTF2MS40OTJjMCAxLjkxMS0xLjU2NCAzLjQ3LTMuNDg2IDMuNDdIOC44NDlhLjQyNC40MjQgMCAxIDAtLjAwMi44NDZoMy4yNDVjMi4zODggMCA0LjMzNC0xLjkzOCA0LjMzNC00LjMxOXYtMS40ODhoMTUuMTQ5YS40MjMuNDIzIDAgMCAwIC40MjQtLjQyNFYuNDI2QS40MjYuNDI2IDAgMCAwIDMxLjU3MyAwbC4wMDIuMDAyem0tLjQyNiAyMS4zNzdIMTQuMzQ4Vi44NTNoMTYuODAzdjIwLjUyNWgtLjAwMnoiLz48cGF0aCBmaWxsPSIjOTg1NUQ0IiBkPSJNMTcuMzM3IDE3LjAxMWgxMC44MjhhLjQyMy40MjMgMCAwIDAgLjQyMi0uNDI2LjQyNS40MjUgMCAwIDAtLjQyNC0uNDI2SDE3LjMzNWEuNDI2LjQyNiAwIDAgMCAuMDAyLjg1MnptLjAwMy01LjM1OWgxMC44MjhhLjQyNS40MjUgMCAwIDAgMC0uODVIMTcuMzRhLjQyNy40MjcgMCAwIDAgLjAwMi44NTNsLS4wMDItLjAwM3ptLjAwMy01LjYxM2gxMC44MjhhLjQyMy40MjMgMCAwIDAgLjQyMi0uNDI2LjQyNS40MjUgMCAwIDAtLjQyNC0uNDI2SDE3LjM0NWEuNDI2LjQyNiAwIDAgMCAwIC44NTJoLS4wMDJ6TTIuNDkgMTAuNTc2YS40MjUuNDI1IDAgMCAwIC40MjQtLjQyNmMwLTMgMi40MzktNS40MzkgNS40MzctNS40MzloMS40NDFsLTEuMjM3IDEuMjRhLjQyLjQyIDAgMCAwIDAgLjZjLjA4LjA4NC4xODkuMTI0LjI5OC4xMjRhLjQzMi40MzIgMCAwIDAgLjMwMi0uMTI0bDEuOTYxLTEuOTY0YS4zODIuMzgyIDAgMCAwIC4xMjEtLjI2NmMwLS4wMS4wMDctLjAyLjAwNy0uMDM0IDAtLjAxLS4wMDUtLjAyLS4wMDctLjAzNGEuNDE1LjQxNSAwIDAgMC0uMDI1LS4xMjcuNDY4LjQ2OCAwIDAgMC0uMDkyLS4xMzlMOS4xNTYgMi4wMjZhLjQyNC40MjQgMCAwIDAtLjYwMyAwIC40MjcuNDI3IDAgMCAwIDAgLjZsMS4yNCAxLjI0SDguMzQ4YTYuMjk1IDYuMjk1IDAgMCAwLTYuMjg5IDYuMjg5YzAgLjIzNS4xOTEuNDI0LjQyNy40MjRsLjAwNC0uMDAzeiIvPjxjaXJjbGUgZmlsbD0iIzk4NTVENCIgY3g9IjExLjc5NCIgY3k9IjIxLjY2NCIgcj0iLjc1MyIvPjxjaXJjbGUgZmlsbD0iIzk4NTVENCIgY3g9IjguMzU2IiBjeT0iMjEuNjY0IiByPSIuNzUzIi8+PGNpcmNsZSBmaWxsPSIjOTg1NUQ0IiBjeD0iNC45MjIiIGN5PSIyMS42NjIiIHI9Ii43NTMiLz48L3N2Zz4=;strokeColor=#4277BB;strokeWidth=2;labelBackgroundColor=none;rounded=0" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-137">
+            <mxGeometry x="40" width="50" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-139" value="Watson Speech To Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-137">
+          <mxGeometry y="60" width="130" height="20" as="geometry" />
+        </mxCell>
+        <UserObject link="https://cloud.ibm.com/catalog/services/text-to-speech" id="NaIo-XjnZuOGT9HA02zK-198">
+          <mxCell style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;fontSize=12;spacingTop=3;image;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iIzk4NTVENCIgZD0iTTMxLjU3NC4wMDJoLTEyLjY5YS40MjQuNDI0IDAgMCAwLS40MjQuNDI0djEwLjIwMWE1LjUzNSA1LjUzNSAwIDAgMC0yLjIwNi0uNDU4SDUuNTc3QTUuNTg0IDUuNTg0IDAgMCAwIDAgMTUuNzQ2djUuMzg5YTUuNTgyIDUuNTgyIDAgMCAwIDUuNTc3IDUuNTc1aDIuMTQ2bDIuODAzIDUuMDdhLjQxNi40MTYgMCAwIDAgLjM2OS4yMTguNDUuNDUgMCAwIDAgLjIwNi0uMDUuNDI3LjQyNyAwIDAgMCAuMTY4LS41NzdMOC4yMTcgMjUuODZINS41NzhhNC43MzIgNC43MzIgMCAwIDEtNC43MjctNC43Mjd2LTUuMzgyYTQuNzMyIDQuNzMyIDAgMCAxIDQuNzI3LTQuNzI3aDEwLjY3N2E0LjczMiA0LjczMiAwIDAgMSA0LjcyNyA0LjcyN3Y1LjM4OWE0LjczMSA0LjczMSAwIDAgMS00LjcyNyA0LjcyN2gtNC42NzNhLjQyMy40MjMgMCAxIDAgMCAuODQ2aDQuNjczYTUuNTgzIDUuNTgzIDAgMCAwIDUuNTc3LTUuNTc1di00LjcxN2g5Ljc0NWEuNDIxLjQyMSAwIDAgMCAuNDIyLS40MjRWLjQyN2EuNDIzLjQyMyAwIDAgMC0uNDI1LS40MjV6bS0uNDIgMTUuNTY4aC05LjMzYTUuNTc2IDUuNTc2IDAgMCAwLTIuNTE0LTQuNDgyVi44NWgxMS44NDR2MTQuNzJ6bS0xLjM1NSA1LjgzMnYuMDA1YS40MjMuNDIzIDAgMCAwLS40MjQuNDI0IDUuNDM0IDUuNDM0IDAgMCAxLTUuNDI3IDUuNDI3aC0xLjQ0MmwxLjIzNy0xLjIzN2EuNDIuNDIgMCAwIDAgMC0uNi40Mi40MiAwIDAgMC0uNiAwbC0xLjk2MSAxLjk1OGEuMzkyLjM5MiAwIDAgMC0uMTE3LjI2N2MwIC4wMTItLjAwNy4wMjMtLjAwNy4wMzcgMCAuMDEyLjAwNy4wMjIuMDA3LjAzNGEuMzc3LjM3NyAwIDAgMCAuMTE5LjI2N2wxLjk2MSAxLjk1OGMuMDguMDg0LjE4OS4xMjQuMjk4LjEyNHMuMjE4LS4wNDIuMzAyLS4xMjRhLjQyNy40MjcgMCAwIDAgMC0uNmwtMS4yMzctMS4yMzdoMS40NDJhNi4yODQgNi4yODQgMCAwIDAgNi4yNzYtNi4yNzcuNDI3LjQyNyAwIDAgMC0uNDI3LS40MjZ6Ii8+PGNpcmNsZSBmaWxsPSIjOTg1NUQ0IiBjeD0iMTUuMjczIiBjeT0iMTguNDQ2IiByPSIxLjA2MyIvPjxjaXJjbGUgZmlsbD0iIzk4NTVENCIgY3g9IjEwLjkxNSIgY3k9IjE4LjQ0NiIgcj0iMS4wNjMiLz48Y2lyY2xlIGZpbGw9IiM5ODU1RDQiIGN4PSI2LjU1NyIgY3k9IjE4LjQ0NiIgcj0iMS4wNjMiLz48cGF0aCBmaWxsPSIjOTg1NUQ0IiBkPSJNMjEuNDA1IDEyLjU2aDguMDg0YS40MjMuNDIzIDAgMCAwIC40MjQtLjQyNC40MjMuNDIzIDAgMCAwLS40MjQtLjQyNGgtOC4wODRhLjQyMy40MjMgMCAwIDAtLjQyNC40MjRjMCAuMjM0LjE4OC40MjQuNDI0LjQyNHptMC0zLjkyNnYuMDAyaDguMDg0YS40MjMuNDIzIDAgMCAwIC40MjQtLjQyNC40MjMuNDIzIDAgMCAwLS40MjQtLjQyNGgtOC4wODRhLjQyMy40MjMgMCAxIDAgMCAuODQ2em0wLTMuOTIydi4wMDJoOC4wODRjLjIzNSAwIC40MjQtLjE4OS40MjQtLjQyNHMtLjE4OS0uNDI0LS40MjQtLjQyNGgtOC4wODRhLjQyMy40MjMgMCAxIDAgMCAuODQ2eiIvPjwvc3ZnPg==;strokeColor=#4277BB;strokeWidth=2;labelBackgroundColor=none;rounded=0" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-136">
+            <mxGeometry x="40" y="165" width="50" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-199" value="Watson Text&amp;nbsp;To Speech" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-136">
+          <mxGeometry y="225" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-140" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-135">
+          <mxGeometry x="250" y="-30" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-141" value="Red Hat Openshift" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-140">
+          <mxGeometry y="60" width="110" height="20" as="geometry" />
+        </mxCell>
+        <UserObject link="https://cloud.ibm.com/catalog/services/openshift" id="NaIo-XjnZuOGT9HA02zK-142">
+          <mxCell style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;fontSize=12;spacingTop=3;image;image=data:image/svg+xml,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9Ik9wZW5TaGlmdExvZ28iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIKCSB5PSIwcHgiIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiIHZpZXdCb3g9IjAgMCAzMiAzMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzIgMzI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojQTMwMDAwO30KCS5zdDF7ZmlsbDojQ0MwMDAwO30KCS5zdDJ7ZmlsbDojODIwMDAwO30KPC9zdHlsZT4KPHBhdGggaWQ9InNoYWRvdzMiIGNsYXNzPSJzdDAiIGQ9Ik05LjMsMTQuNDY5OTNsLTUuMTMsMS45MDAwOWMwLjA2LDAuODQwMDQsMC4xOSwxLjY4MDA3LDAuNDEsMi40OTAxMWw0Ljg5LTEuODIwMDgKCUM5LjI4LDE2LjIwMDAxLDkuMjIsMTUuMzI5OTcsOS4zLDE0LjQ2OTkzIE0zMiw4LjY2OTY4Yy0wLjM2LTAuNzYwMDMtMC43Ny0xLjQ4MDA3LTEuMjYtMi4xOTAxbC01LjEzLDEuOTAwMDgKCWMwLjYsMC42MjAwMywxLjEsMS4zMjAwNiwxLjUxLDIuMDcwMDlMMzIsOC42Njk2OHoiLz4KPHBhdGggaWQ9InRvcCIgY2xhc3M9InN0MSIgZD0iTTIwLjY5LDcuMTc5NjFjMS4wNCwwLjUwMDAyLDEuOTgsMS4xODAwNSwyLjc3LDIuMDIwMDlsNS4xMy0xLjkwMDA4CglDMjMuOSwwLjUzOTMyLDE0Ljc0LTEuMDIwNzUsOC4xMiwzLjc4OTQ2QzMuOTIsNi44NDk2LDEuNjIsMTEuOTE5ODIsMiwxNy4xODAwNWw1LjEzLTEuOTMwMDkKCWMwLjM5LTUuMzUwMjQsNC45Ny05LjM4MDQxLDEwLjIxLTguOTYwNEMxOC41LDYuMzY5NTcsMTkuNjUsNi42Nzk1OSwyMC42OSw3LjE3OTYxIE00Ljg5LDE4LjcyMDEyTDAsMjAuNTQwMgoJYzAuNDQsMS44MjAwOCwxLjIzLDMuNTYwMTYsMi4zMSw1LjA3MDIybDUuMS0xLjg4MDA4QzYuMTA0MSwyMi4zMzg0OCw1LjIyODg5LDIwLjU5ODQxLDQuODksMTguNzIwMTIiLz4KPHBhdGggaWQ9ImJvdHRvbSIgY2xhc3M9InN0MSIgZD0iTTI2LjE4LDE2Ljc2MDAzYy0wLjA4LDEuMTgwMDUtMC4zOCwyLjMwMDEtMC44NSwzLjM2MDE1Yy0yLjI1LDQuODcwMjEtNy45LDYuOTcwMzEtMTIuNzEsNC43MTAyMQoJYy0xLjAzOTc5LTAuNDk3MTQtMS45Nzg4Ni0xLjE4MTk4LTIuNzctMi4wMjAwOWwtNS4xMywxLjkxMDA4YzEuNDUsMi4xMDAwOSwzLjQzLDMuNzgwMTcsNS43MSw0Ljg3MDIxCgljNy4zNiwzLjUwMDE1LDE2LjExLDAuMjUwMDEsMTkuNTQtNy4yNTAzMmMxLjA3LTIuMzMwMSwxLjU0LTQuOTMwMjIsMS4zMi03LjQ4MDMzTDI2LjE4LDE2Ljc2MDAzeiIvPgo8cGF0aCBpZD0icmlnaHRfc2lkZSIgY2xhc3M9InN0MSIgZD0iTTI3LjQ3LDEwLjM0OTc1bC00Ljg4LDEuODIwMDhjMC45MTQyNSwxLjY3ODg4LDEuMzMzOCwzLjU4MjU3LDEuMjEsNS40OTAyNGw1LjEzLTEuOTAwMDgKCUMyOC43NiwxMy44Nzk5MSwyOC4yNywxMi4wNTk4MywyNy40NywxMC4zNDk3NSIvPgo8cGF0aCBpZD0ic2hhZG93MiIgY2xhc3M9InN0MiIgZD0iTTkuMjgsMTUuNDk5OThjMC0wLjM2MDAyLDAtMC43MDAwMywwLjAzLTEuMDYwMDVsLTUuMTMsMS45MDAwOAoJYzAuMDMsMC4zNDAwMiwwLjA2LDAuNjcwMDMsMC4xMSwxLjAxMDA0QzQuMjksMTcuMzUwMDYsOS4yOCwxNS40OTk5OCw5LjI4LDE1LjQ5OTk4eiBNMzEuMjYsNy4yNjk2MQoJYy0wLjE2LTAuMjgwMDEtMC4zMy0wLjUzMDAyLTAuNTItMC43ODAwNGwtNS4xMywxLjkwMDA4YzAuMjIsMC4yMjAwMSwwLjQ0LDAuNDgwMDIsMC42MywwLjc2MDAzCglDMjYuMjQsOS4xNDk3LDMxLjI2LDcuMjY5NjEsMzEuMjYsNy4yNjk2MXoiLz4KPHBhdGggaWQ9InNoYWRvdyIgY2xhc3M9InN0MCIgZD0iTTQuNzIsMjQuNzUwMzljMC4zOCwwLjU2MDAyLDAuODIsMS4xMjAwNSwxLjMyLDEuNjIwMDdsNS41Ny0yLjA3MDA5CgljLTAuNjMtMC40MjAwMi0xLjIzLTAuOTAwMDQtMS43Ni0xLjQ2MDA2QzkuODUsMjIuODQwMyw0LjcyLDI0Ljc1MDM5LDQuNzIsMjQuNzUwMzl6IE0zMS4zMSwxNC44NTk5NWwtNS4xMywxLjkwMDA5CgljLTAuMDUsMC43NjAwMy0wLjE5LDEuNTEwMDctMC40NCwyLjI0MDFsNS41Ny0yLjA3MDA5QzMxLjM3LDE2LjIzMDAxLDMxLjM3LDE1LjUyOTk4LDMxLjMxLDE0Ljg1OTk1Ii8+Cjwvc3ZnPgo=;strokeColor=#4277BB;strokeWidth=2;labelBackgroundColor=none;rounded=0" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-140">
+            <mxGeometry x="25" width="60" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-143" value="Enterprise&amp;nbsp; &amp;nbsp; &amp;nbsp;Application" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=#f5f5f5;rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;dashed=0;container=1;collapsible=0;expand=0;recursiveResize=0;fontSize=12;fontColor=#333333;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-135">
+          <mxGeometry x="190" y="70" width="380" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=classic;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-143" source="NaIo-XjnZuOGT9HA02zK-156" target="NaIo-XjnZuOGT9HA02zK-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=classic;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-143" source="NaIo-XjnZuOGT9HA02zK-159" target="NaIo-XjnZuOGT9HA02zK-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-146" value="Summarizer &amp;amp; &lt;br style=&quot;font-size: 11px;&quot;&gt;insights microservice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-143">
+          <mxGeometry x="128" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=block;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-143" source="NaIo-XjnZuOGT9HA02zK-156" target="NaIo-XjnZuOGT9HA02zK-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-143" source="NaIo-XjnZuOGT9HA02zK-154" target="NaIo-XjnZuOGT9HA02zK-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-149" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-143">
+          <mxGeometry x="155.5" y="30" width="65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-150" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/enterprise_applications.svg;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-149">
+          <mxGeometry x="5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-151" value="&lt;font style=&quot;font-size: 12px&quot;&gt;React UI&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-149">
+          <mxGeometry x="2.5" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-143" source="NaIo-XjnZuOGT9HA02zK-154" target="NaIo-XjnZuOGT9HA02zK-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-153" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-143">
+          <mxGeometry x="118" y="150" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-154" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-153">
+          <mxGeometry x="28.899999999999977" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-155" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-143">
+          <mxGeometry x="-2" y="150" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-156" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-155">
+          <mxGeometry x="28.899999999999977" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-157" value="Speech to text analyzer&lt;br style=&quot;font-size: 11px;&quot;&gt;microservice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-155">
+          <mxGeometry x="5" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-158" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-143">
+          <mxGeometry x="242" y="150" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-159" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-158">
+          <mxGeometry x="28.899999999999977" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-160" value="Text to speech analyzer&lt;br style=&quot;font-size: 11px;&quot;&gt;microservice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-158">
+          <mxGeometry x="5" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-135" source="NaIo-XjnZuOGT9HA02zK-156" target="NaIo-XjnZuOGT9HA02zK-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-135" source="NaIo-XjnZuOGT9HA02zK-198" target="NaIo-XjnZuOGT9HA02zK-159">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="260" />
+              <mxPoint x="170" y="300" />
+              <mxPoint x="502" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-162" value="" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=#f8cecc;rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;strokeWidth=1;dashed=0;container=1;collapsible=0;expand=0;recursiveResize=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="610" width="600" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-163" value="Cloud Pak for Data" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=#dae8fc;rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;dashed=0;container=1;collapsible=0;expand=0;recursiveResize=0;fontSize=12;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-162">
+          <mxGeometry x="30" y="70" width="130" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-164" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-163">
+          <mxGeometry y="50" width="130" height="80" as="geometry" />
+        </mxCell>
+        <UserObject link="https://cloud.ibm.com/catalog/services/speech-to-text" id="NaIo-XjnZuOGT9HA02zK-165">
+          <mxCell style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;fontSize=12;spacingTop=3;image;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iIzk4NTVENCIgZD0iTTMxLjU3NS4wMDJIMTMuOTI2YS40MjYuNDI2IDAgMCAwLS40MjYuNDI2djE1LjM5M2E0LjM0MyA0LjM0MyAwIDAgMC0xLjQxMS0uMjQ1SDQuMzA1Yy0yLjM3MyAwLTQuMzA0IDEuOTM4LTQuMzA0IDQuMzE5djMuODIxYzAgMi4zOCAxLjkzMSA0LjMxOSA0LjMwNCA0LjMxOWgxLjUxN2wyLjE2NyAzLjc1NGEuNDI5LjQyOSAwIDAgMCAuNTgyLjE1NC40MjQuNDI0IDAgMCAwIC4xNTYtLjU4bC0yLjQxNC00LjE3N0g0LjMwN2MtMS45MDQgMC0zLjQ1My0xLjU1OS0zLjQ1My0zLjQ3di0zLjgyMWMwLTEuOTExIDEuNTQ3LTMuNDcgMy40NTMtMy40N2g3Ljc4NWMuNDg2IDAgLjk2NS4xMjQgMS40MDguMzIzdjUuMDUzYzAgLjIzNS4xOTMuNDI0LjQyNy40MjRoMS42NTF2MS40OTJjMCAxLjkxMS0xLjU2NCAzLjQ3LTMuNDg2IDMuNDdIOC44NDlhLjQyNC40MjQgMCAxIDAtLjAwMi44NDZoMy4yNDVjMi4zODggMCA0LjMzNC0xLjkzOCA0LjMzNC00LjMxOXYtMS40ODhoMTUuMTQ5YS40MjMuNDIzIDAgMCAwIC40MjQtLjQyNFYuNDI2QS40MjYuNDI2IDAgMCAwIDMxLjU3MyAwbC4wMDIuMDAyem0tLjQyNiAyMS4zNzdIMTQuMzQ4Vi44NTNoMTYuODAzdjIwLjUyNWgtLjAwMnoiLz48cGF0aCBmaWxsPSIjOTg1NUQ0IiBkPSJNMTcuMzM3IDE3LjAxMWgxMC44MjhhLjQyMy40MjMgMCAwIDAgLjQyMi0uNDI2LjQyNS40MjUgMCAwIDAtLjQyNC0uNDI2SDE3LjMzNWEuNDI2LjQyNiAwIDAgMCAuMDAyLjg1MnptLjAwMy01LjM1OWgxMC44MjhhLjQyNS40MjUgMCAwIDAgMC0uODVIMTcuMzRhLjQyNy40MjcgMCAwIDAgLjAwMi44NTNsLS4wMDItLjAwM3ptLjAwMy01LjYxM2gxMC44MjhhLjQyMy40MjMgMCAwIDAgLjQyMi0uNDI2LjQyNS40MjUgMCAwIDAtLjQyNC0uNDI2SDE3LjM0NWEuNDI2LjQyNiAwIDAgMCAwIC44NTJoLS4wMDJ6TTIuNDkgMTAuNTc2YS40MjUuNDI1IDAgMCAwIC40MjQtLjQyNmMwLTMgMi40MzktNS40MzkgNS40MzctNS40MzloMS40NDFsLTEuMjM3IDEuMjRhLjQyLjQyIDAgMCAwIDAgLjZjLjA4LjA4NC4xODkuMTI0LjI5OC4xMjRhLjQzMi40MzIgMCAwIDAgLjMwMi0uMTI0bDEuOTYxLTEuOTY0YS4zODIuMzgyIDAgMCAwIC4xMjEtLjI2NmMwLS4wMS4wMDctLjAyLjAwNy0uMDM0IDAtLjAxLS4wMDUtLjAyLS4wMDctLjAzNGEuNDE1LjQxNSAwIDAgMC0uMDI1LS4xMjcuNDY4LjQ2OCAwIDAgMC0uMDkyLS4xMzlMOS4xNTYgMi4wMjZhLjQyNC40MjQgMCAwIDAtLjYwMyAwIC40MjcuNDI3IDAgMCAwIDAgLjZsMS4yNCAxLjI0SDguMzQ4YTYuMjk1IDYuMjk1IDAgMCAwLTYuMjg5IDYuMjg5YzAgLjIzNS4xOTEuNDI0LjQyNy40MjRsLjAwNC0uMDAzeiIvPjxjaXJjbGUgZmlsbD0iIzk4NTVENCIgY3g9IjExLjc5NCIgY3k9IjIxLjY2NCIgcj0iLjc1MyIvPjxjaXJjbGUgZmlsbD0iIzk4NTVENCIgY3g9IjguMzU2IiBjeT0iMjEuNjY0IiByPSIuNzUzIi8+PGNpcmNsZSBmaWxsPSIjOTg1NUQ0IiBjeD0iNC45MjIiIGN5PSIyMS42NjIiIHI9Ii43NTMiLz48L3N2Zz4=;strokeColor=#4277BB;strokeWidth=2;labelBackgroundColor=none;rounded=0" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-164">
+            <mxGeometry x="40" width="50" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-166" value="Watson Speech To Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-164">
+          <mxGeometry y="60" width="130" height="20" as="geometry" />
+        </mxCell>
+        <UserObject link="https://cloud.ibm.com/catalog/services/text-to-speech" id="NaIo-XjnZuOGT9HA02zK-195">
+          <mxCell style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;fontSize=12;spacingTop=3;image;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iIzk4NTVENCIgZD0iTTMxLjU3NC4wMDJoLTEyLjY5YS40MjQuNDI0IDAgMCAwLS40MjQuNDI0djEwLjIwMWE1LjUzNSA1LjUzNSAwIDAgMC0yLjIwNi0uNDU4SDUuNTc3QTUuNTg0IDUuNTg0IDAgMCAwIDAgMTUuNzQ2djUuMzg5YTUuNTgyIDUuNTgyIDAgMCAwIDUuNTc3IDUuNTc1aDIuMTQ2bDIuODAzIDUuMDdhLjQxNi40MTYgMCAwIDAgLjM2OS4yMTguNDUuNDUgMCAwIDAgLjIwNi0uMDUuNDI3LjQyNyAwIDAgMCAuMTY4LS41NzdMOC4yMTcgMjUuODZINS41NzhhNC43MzIgNC43MzIgMCAwIDEtNC43MjctNC43Mjd2LTUuMzgyYTQuNzMyIDQuNzMyIDAgMCAxIDQuNzI3LTQuNzI3aDEwLjY3N2E0LjczMiA0LjczMiAwIDAgMSA0LjcyNyA0LjcyN3Y1LjM4OWE0LjczMSA0LjczMSAwIDAgMS00LjcyNyA0LjcyN2gtNC42NzNhLjQyMy40MjMgMCAxIDAgMCAuODQ2aDQuNjczYTUuNTgzIDUuNTgzIDAgMCAwIDUuNTc3LTUuNTc1di00LjcxN2g5Ljc0NWEuNDIxLjQyMSAwIDAgMCAuNDIyLS40MjRWLjQyN2EuNDIzLjQyMyAwIDAgMC0uNDI1LS40MjV6bS0uNDIgMTUuNTY4aC05LjMzYTUuNTc2IDUuNTc2IDAgMCAwLTIuNTE0LTQuNDgyVi44NWgxMS44NDR2MTQuNzJ6bS0xLjM1NSA1LjgzMnYuMDA1YS40MjMuNDIzIDAgMCAwLS40MjQuNDI0IDUuNDM0IDUuNDM0IDAgMCAxLTUuNDI3IDUuNDI3aC0xLjQ0MmwxLjIzNy0xLjIzN2EuNDIuNDIgMCAwIDAgMC0uNi40Mi40MiAwIDAgMC0uNiAwbC0xLjk2MSAxLjk1OGEuMzkyLjM5MiAwIDAgMC0uMTE3LjI2N2MwIC4wMTItLjAwNy4wMjMtLjAwNy4wMzcgMCAuMDEyLjAwNy4wMjIuMDA3LjAzNGEuMzc3LjM3NyAwIDAgMCAuMTE5LjI2N2wxLjk2MSAxLjk1OGMuMDguMDg0LjE4OS4xMjQuMjk4LjEyNHMuMjE4LS4wNDIuMzAyLS4xMjRhLjQyNy40MjcgMCAwIDAgMC0uNmwtMS4yMzctMS4yMzdoMS40NDJhNi4yODQgNi4yODQgMCAwIDAgNi4yNzYtNi4yNzcuNDI3LjQyNyAwIDAgMC0uNDI3LS40MjZ6Ii8+PGNpcmNsZSBmaWxsPSIjOTg1NUQ0IiBjeD0iMTUuMjczIiBjeT0iMTguNDQ2IiByPSIxLjA2MyIvPjxjaXJjbGUgZmlsbD0iIzk4NTVENCIgY3g9IjEwLjkxNSIgY3k9IjE4LjQ0NiIgcj0iMS4wNjMiLz48Y2lyY2xlIGZpbGw9IiM5ODU1RDQiIGN4PSI2LjU1NyIgY3k9IjE4LjQ0NiIgcj0iMS4wNjMiLz48cGF0aCBmaWxsPSIjOTg1NUQ0IiBkPSJNMjEuNDA1IDEyLjU2aDguMDg0YS40MjMuNDIzIDAgMCAwIC40MjQtLjQyNC40MjMuNDIzIDAgMCAwLS40MjQtLjQyNGgtOC4wODRhLjQyMy40MjMgMCAwIDAtLjQyNC40MjRjMCAuMjM0LjE4OC40MjQuNDI0LjQyNHptMC0zLjkyNnYuMDAyaDguMDg0YS40MjMuNDIzIDAgMCAwIC40MjQtLjQyNC40MjMuNDIzIDAgMCAwLS40MjQtLjQyNGgtOC4wODRhLjQyMy40MjMgMCAxIDAgMCAuODQ2em0wLTMuOTIydi4wMDJoOC4wODRjLjIzNSAwIC40MjQtLjE4OS40MjQtLjQyNHMtLjE4OS0uNDI0LS40MjQtLjQyNGgtOC4wODRhLjQyMy40MjMgMCAxIDAgMCAuODQ2eiIvPjwvc3ZnPg==;strokeColor=#4277BB;strokeWidth=2;labelBackgroundColor=none;rounded=0" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-163">
+            <mxGeometry x="40" y="170" width="50" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-196" value="Watson Text&amp;nbsp;To Speech" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-163">
+          <mxGeometry y="230" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-167" value="Enterprise&amp;nbsp; &amp;nbsp; Application" style="fontStyle=0;verticalAlign=top;align=center;spacingTop=-2;fillColor=#f5f5f5;rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;dashed=0;container=1;collapsible=0;expand=0;recursiveResize=0;fontSize=12;fontColor=#333333;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-162">
+          <mxGeometry x="190" y="70" width="380" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=classic;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-167" source="NaIo-XjnZuOGT9HA02zK-180" target="NaIo-XjnZuOGT9HA02zK-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=classic;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-167" source="NaIo-XjnZuOGT9HA02zK-183" target="NaIo-XjnZuOGT9HA02zK-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-170" value="Summarizer &amp;amp; &lt;br style=&quot;font-size: 11px;&quot;&gt;insights microservice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-167">
+          <mxGeometry x="128" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=block;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-167" source="NaIo-XjnZuOGT9HA02zK-180" target="NaIo-XjnZuOGT9HA02zK-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-167" source="NaIo-XjnZuOGT9HA02zK-178" target="NaIo-XjnZuOGT9HA02zK-183">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-173" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-167">
+          <mxGeometry x="155.5" y="30" width="65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-174" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/enterprise_applications.svg;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-173">
+          <mxGeometry x="5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-175" value="&lt;font style=&quot;font-size: 12px&quot;&gt;React UI&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-173">
+          <mxGeometry x="2.5" y="70" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-167" source="NaIo-XjnZuOGT9HA02zK-178" target="NaIo-XjnZuOGT9HA02zK-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-177" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-167">
+          <mxGeometry x="118" y="150" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-178" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-177">
+          <mxGeometry x="28.899999999999977" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-179" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-167">
+          <mxGeometry x="-2" y="150" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-180" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-179">
+          <mxGeometry x="28.899999999999977" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-181" value="Speech to text analyzer&lt;br style=&quot;font-size: 11px;&quot;&gt;microservice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-179">
+          <mxGeometry x="5" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-182" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-167">
+          <mxGeometry x="242" y="150" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-183" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-182">
+          <mxGeometry x="28.899999999999977" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-184" value="Text to speech analyzer&lt;br style=&quot;font-size: 11px;&quot;&gt;microservice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-182">
+          <mxGeometry x="5" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=classic;startFill=1;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-162" source="NaIo-XjnZuOGT9HA02zK-165" target="NaIo-XjnZuOGT9HA02zK-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-186" value="" style="group" vertex="1" connectable="0" parent="NaIo-XjnZuOGT9HA02zK-162">
+          <mxGeometry x="250" y="-30" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-187" value="Red Hat Openshift" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-186">
+          <mxGeometry y="60" width="110" height="20" as="geometry" />
+        </mxCell>
+        <UserObject link="https://cloud.ibm.com/catalog/services/openshift" id="NaIo-XjnZuOGT9HA02zK-188">
+          <mxCell style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;fontSize=12;spacingTop=3;image;image=data:image/svg+xml,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9Ik9wZW5TaGlmdExvZ28iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIKCSB5PSIwcHgiIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiIHZpZXdCb3g9IjAgMCAzMiAzMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzIgMzI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojQTMwMDAwO30KCS5zdDF7ZmlsbDojQ0MwMDAwO30KCS5zdDJ7ZmlsbDojODIwMDAwO30KPC9zdHlsZT4KPHBhdGggaWQ9InNoYWRvdzMiIGNsYXNzPSJzdDAiIGQ9Ik05LjMsMTQuNDY5OTNsLTUuMTMsMS45MDAwOWMwLjA2LDAuODQwMDQsMC4xOSwxLjY4MDA3LDAuNDEsMi40OTAxMWw0Ljg5LTEuODIwMDgKCUM5LjI4LDE2LjIwMDAxLDkuMjIsMTUuMzI5OTcsOS4zLDE0LjQ2OTkzIE0zMiw4LjY2OTY4Yy0wLjM2LTAuNzYwMDMtMC43Ny0xLjQ4MDA3LTEuMjYtMi4xOTAxbC01LjEzLDEuOTAwMDgKCWMwLjYsMC42MjAwMywxLjEsMS4zMjAwNiwxLjUxLDIuMDcwMDlMMzIsOC42Njk2OHoiLz4KPHBhdGggaWQ9InRvcCIgY2xhc3M9InN0MSIgZD0iTTIwLjY5LDcuMTc5NjFjMS4wNCwwLjUwMDAyLDEuOTgsMS4xODAwNSwyLjc3LDIuMDIwMDlsNS4xMy0xLjkwMDA4CglDMjMuOSwwLjUzOTMyLDE0Ljc0LTEuMDIwNzUsOC4xMiwzLjc4OTQ2QzMuOTIsNi44NDk2LDEuNjIsMTEuOTE5ODIsMiwxNy4xODAwNWw1LjEzLTEuOTMwMDkKCWMwLjM5LTUuMzUwMjQsNC45Ny05LjM4MDQxLDEwLjIxLTguOTYwNEMxOC41LDYuMzY5NTcsMTkuNjUsNi42Nzk1OSwyMC42OSw3LjE3OTYxIE00Ljg5LDE4LjcyMDEyTDAsMjAuNTQwMgoJYzAuNDQsMS44MjAwOCwxLjIzLDMuNTYwMTYsMi4zMSw1LjA3MDIybDUuMS0xLjg4MDA4QzYuMTA0MSwyMi4zMzg0OCw1LjIyODg5LDIwLjU5ODQxLDQuODksMTguNzIwMTIiLz4KPHBhdGggaWQ9ImJvdHRvbSIgY2xhc3M9InN0MSIgZD0iTTI2LjE4LDE2Ljc2MDAzYy0wLjA4LDEuMTgwMDUtMC4zOCwyLjMwMDEtMC44NSwzLjM2MDE1Yy0yLjI1LDQuODcwMjEtNy45LDYuOTcwMzEtMTIuNzEsNC43MTAyMQoJYy0xLjAzOTc5LTAuNDk3MTQtMS45Nzg4Ni0xLjE4MTk4LTIuNzctMi4wMjAwOWwtNS4xMywxLjkxMDA4YzEuNDUsMi4xMDAwOSwzLjQzLDMuNzgwMTcsNS43MSw0Ljg3MDIxCgljNy4zNiwzLjUwMDE1LDE2LjExLDAuMjUwMDEsMTkuNTQtNy4yNTAzMmMxLjA3LTIuMzMwMSwxLjU0LTQuOTMwMjIsMS4zMi03LjQ4MDMzTDI2LjE4LDE2Ljc2MDAzeiIvPgo8cGF0aCBpZD0icmlnaHRfc2lkZSIgY2xhc3M9InN0MSIgZD0iTTI3LjQ3LDEwLjM0OTc1bC00Ljg4LDEuODIwMDhjMC45MTQyNSwxLjY3ODg4LDEuMzMzOCwzLjU4MjU3LDEuMjEsNS40OTAyNGw1LjEzLTEuOTAwMDgKCUMyOC43NiwxMy44Nzk5MSwyOC4yNywxMi4wNTk4MywyNy40NywxMC4zNDk3NSIvPgo8cGF0aCBpZD0ic2hhZG93MiIgY2xhc3M9InN0MiIgZD0iTTkuMjgsMTUuNDk5OThjMC0wLjM2MDAyLDAtMC43MDAwMywwLjAzLTEuMDYwMDVsLTUuMTMsMS45MDAwOAoJYzAuMDMsMC4zNDAwMiwwLjA2LDAuNjcwMDMsMC4xMSwxLjAxMDA0QzQuMjksMTcuMzUwMDYsOS4yOCwxNS40OTk5OCw5LjI4LDE1LjQ5OTk4eiBNMzEuMjYsNy4yNjk2MQoJYy0wLjE2LTAuMjgwMDEtMC4zMy0wLjUzMDAyLTAuNTItMC43ODAwNGwtNS4xMywxLjkwMDA4YzAuMjIsMC4yMjAwMSwwLjQ0LDAuNDgwMDIsMC42MywwLjc2MDAzCglDMjYuMjQsOS4xNDk3LDMxLjI2LDcuMjY5NjEsMzEuMjYsNy4yNjk2MXoiLz4KPHBhdGggaWQ9InNoYWRvdyIgY2xhc3M9InN0MCIgZD0iTTQuNzIsMjQuNzUwMzljMC4zOCwwLjU2MDAyLDAuODIsMS4xMjAwNSwxLjMyLDEuNjIwMDdsNS41Ny0yLjA3MDA5CgljLTAuNjMtMC40MjAwMi0xLjIzLTAuOTAwMDQtMS43Ni0xLjQ2MDA2QzkuODUsMjIuODQwMyw0LjcyLDI0Ljc1MDM5LDQuNzIsMjQuNzUwMzl6IE0zMS4zMSwxNC44NTk5NWwtNS4xMywxLjkwMDA5CgljLTAuMDUsMC43NjAwMy0wLjE5LDEuNTEwMDctMC40NCwyLjI0MDFsNS41Ny0yLjA3MDA5QzMxLjM3LDE2LjIzMDAxLDMxLjM3LDE1LjUyOTk4LDMxLjMxLDE0Ljg1OTk1Ii8+Cjwvc3ZnPgo=;strokeColor=#4277BB;strokeWidth=2;labelBackgroundColor=none;rounded=0" vertex="1" parent="NaIo-XjnZuOGT9HA02zK-186">
+            <mxGeometry x="25" width="60" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;startArrow=classic;startFill=1;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="NaIo-XjnZuOGT9HA02zK-162" source="NaIo-XjnZuOGT9HA02zK-195" target="NaIo-XjnZuOGT9HA02zK-183">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="265" />
+              <mxPoint x="170" y="300" />
+              <mxPoint x="502" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="NaIo-XjnZuOGT9HA02zK-191" target="NaIo-XjnZuOGT9HA02zK-174">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1331" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-191" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="560" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=default;" edge="1" parent="1" source="NaIo-XjnZuOGT9HA02zK-194" target="NaIo-XjnZuOGT9HA02zK-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NaIo-XjnZuOGT9HA02zK-194" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="60" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
