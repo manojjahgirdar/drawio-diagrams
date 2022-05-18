@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T05:43:08.877Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" version="17.4.6" etag="QzpxFAjBuF5dPRzgcdIW" type="github"><diagram id="xtP1NZau4fnkfkJW6GW1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-18T05:58:51.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="AaJMmy6rcNz6x7AZ05N9" version="17.4.6" type="github">
+  <diagram id="xtP1NZau4fnkfkJW6GW1" name="Page-1">
+    <mxGraphModel dx="1426" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3h1g_XG2gFF99njr8ieF-1" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-3" value="Asset Onboarding Framework" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="320" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-5" value="GitHub Repo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3h1g_XG2gFF99njr8ieF-6" target="3h1g_XG2gFF99njr8ieF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-6" value="Asset Feasibility Checklist" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3h1g_XG2gFF99njr8ieF-7" target="3h1g_XG2gFF99njr8ieF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-7" value="Didact Builder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3h1g_XG2gFF99njr8ieF-8" target="3h1g_XG2gFF99njr8ieF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-8" value="Container Image Builder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3h1g_XG2gFF99njr8ieF-9" target="3h1g_XG2gFF99njr8ieF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3h1g_XG2gFF99njr8ieF-9" target="3h1g_XG2gFF99njr8ieF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-9" value="GitHub Actions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3h1g_XG2gFF99njr8ieF-1" target="3h1g_XG2gFF99njr8ieF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-15" value="IBM Developer Technology Sandbox" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="570" y="180" width="190" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3h1g_XG2gFF99njr8ieF-17" target="3h1g_XG2gFF99njr8ieF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-17" value="Asset repo ready to run on Sandbox" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="235" y="440" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-20" value="Asset" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-22" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-23" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-24" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-25" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-26" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344" y="310" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-27" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3h1g_XG2gFF99njr8ieF-28" value="7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="666" y="400" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
